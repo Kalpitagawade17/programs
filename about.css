@@ -1,0 +1,243 @@
+body{
+  background: url(images/tryy.jpg)
+  background-size: cover;
+  background-position:center;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.headingdiv{
+    width:100%;
+    height:70px;
+    background-color:bisque;
+    margin-top: 20px;
+}
+
+.headingdiv h1{
+    text-align:center;
+    height:70px;
+    line-height:70px;
+    color:black;
+}
+
+.subheadingdiv h2{
+    text-align:center;
+    height:40px;
+    line-height:70px;
+    color:black;
+}
+
+.contentdiv{
+    clear:both;
+    margin:auto;
+    margin-top:40px;
+    text-align:left;
+    width:90%;
+}
+
+.contentdiv p{
+    text-align:left;
+    width:90%;
+    margin-top:10px;
+}
+
+.storydiv h2{
+    text-align:center;
+    width:90%;
+    margin-top:40px;
+}
+
+.beginningdiv h3{
+    text-align:left;
+    margin-top:20px;
+    width:90%;
+    margin:auto;
+}
+
+.content1div p{
+    text-align:left;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+}
+
+.status1div h3{
+    text-align:center;
+    margin-top:50px;
+    width:90%;
+    margin:auto;
+}
+
+.reviewsdiv h3{
+    text-align:left;
+    margin-top:40px;
+    width:90%;
+    margin:auto;
+}
+
+.content2div p{
+    text-align:left;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+}
+
+.status2div h3{
+    text-align:center;
+    margin-top:50px;
+    width:90%;
+    margin:auto;
+}
+
+.browsediv h3{
+    text-align:left;
+    margin-top:40px;
+    width:90%;
+    margin:auto;
+}
+
+.content3div p{
+    text-align:left;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+}
+
+.status3div h3{
+    text-align:center;
+    margin-top:50px;
+    width:90%;
+    margin:auto;
+}
+
+.beyonddiv h3{
+    text-align:left;
+    margin-top:40px;
+    width:90%;
+    margin:auto;
+}
+
+.content4div p{
+    text-align:left;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+}
+
+.status4div h3{
+    text-align:center;
+    margin-top:50px;
+    width:90%;
+    margin:auto;
+}
+
+.sourcediv h3{
+    text-align:left;
+    margin-top:40px;
+    width:90%;
+    margin:auto;
+}
+.content5div p{
+    text-align:left;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+}
+
+.status5div h3{
+    margin-top:50px;
+    width:90%;
+    margin:auto;
+    text-align:center;
+}
+
+.booksdiv h3{
+    text-align:left;
+    margin-top:40px;
+    width:90%;
+    margin:auto;
+}
+
+.content6div p{
+    ext-align:left;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+}
+
+.status6div h3{
+    margin-top:50px;
+    width:90%;
+    margin:auto;
+    text-align:center;
+}
+
+.memberdiv h3{
+    text-align:left;
+    margin-top:40px;
+    width:90%;
+    margin:auto;
+}
+
+.content7div p{
+    ext-align:left;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+}
+
+.status7div h3{
+    margin-top:50px;
+    width:90%;
+    margin:auto;
+    text-align:center;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 1.25rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+   p{
+       font-size: 1.5rem;
+	line-height: 1.5;
+	}
+    }
+
+@media screen and (min-width: 768px) {
+   p{
+       font-size: 1.75rem;
+	line-height: 1.5;
+	}
+    }
+
+@media screen and (min-width: 992px) {
+   p{
+       font-size: 1.75rem;
+	line-height: 1.5;
+	}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

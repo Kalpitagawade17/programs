@@ -1,0 +1,161 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(images/books1.png);
+    background-size: cover;
+    background-position:center;
+    font-family: sans-serif;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-right: 20px;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-weight: bold;
+    
+}
+
+ul li a:hover{
+   background:#f4f4f4;
+   color:black;
+    border-radius: 20px;
+}
+
+.loginbox{
+    width: 350px;
+    height: 525px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-40%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avtar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+.books1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.loginbox input[type="submit"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #1677d2;
+    border: none;
+    border-radius: 2px;
+    color: #030303;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    
+}
+
+.loginbox input[type="submit"]:hover,input[type="submit"]:focus
+{
+    cursor: pointer;
+    background: #184b7a;
+    transition: 0.2s ease;
+    color: #000;   
+}
+
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107; 
+}
+
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 1.25rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+   p{
+       font-size: 1.5rem;
+	line-height: 1.5;
+	}
+    }
+
+@media screen and (min-width: 768px) {
+   p{
+       font-size: 1.75rem;
+	line-height: 1.5;
+	}
+    }
+
+@media screen and (min-width: 992px) {
+   p{
+       font-size: 1.75rem;
+	line-height: 1.5;
+	}
+    }
+
+
+
+
+
+
+
+

@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;height: 100%;
+    background: black;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-right: 20px;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-weight: bold;
+    
+}
+
+ul li a:hover{
+   background:#f4f4f4;
+   color:black;
+    border-radius: 20px;
+}
+
+#showcase .button{
+    position: absolute;
+    top: 80%;
+    left: 42%;
+  font-size:18px;
+  text-decoration:none;
+  color:white;
+  border:white 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+    font-weight: bold;
+}
+
+#showcase .button:hover{
+  background:#f4f4f4;
+  color:black;
+}
+.container{
+    width: 210px;
+    height: 350px;
+    background: url(images/flip2.jpg);
+    position: relative;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    perspective: 1000px;
+}
+
+.cover{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 5px;
+    background-color: #345b8c;
+    transform: rotateY(-20deg);
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: all .5s ease-in;
+}
+
+.container:hover .cover{
+    transform: rotateY(-180deg);
+    
+}
+
+figure{
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+figure.front{
+    background: url(images/flip1.jpg);
+    
+}
+figure.back{
+    background: url(images/flip3.jpg);
+    transform: rotateY(180deg);
+    
+}
+
+.container1{
+    width: 210px;
+    height: 350px;
+    background: url(images/flip5.jpg);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    perspective: 1000px;
+}
+
+.cover1{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 5px;
+    background-color: #345b8c;
+    transform: rotateY(-20deg);
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: all .5s ease-in;
+}
+
+.container1:hover .cover1{
+    transform: rotateY(-180deg);
+    
+}
+
+figure{
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+figure.front1{
+    background: url(images/flip7.jpg);
+    
+}
+figure.back1{
+    background: url(images/flip6.jpg);
+    transform: rotateY(180deg);
+    
+}
+
+.container2{
+    width: 210px;
+    height: 350px;
+    background: url(images/flip9.jpg);
+    position: absolute;
+    left: 85%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    perspective: 1000px;
+}
+
+.cover2{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 5px;
+    background-color: #345b8c;
+    transform: rotateY(-20deg);
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: all .5s ease-in;
+}
+
+.container2:hover .cover2{
+    transform: rotateY(-180deg);
+    
+}
+
+figure{
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+figure.front2{
+    background: url(images/flip11.jpg);
+    
+}
+figure.back2{
+    background: url(images/flip8.jpg);
+    transform: rotateY(180deg);
+    
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 1.25rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+   p{
+       font-size: 1.5rem;
+	line-height: 1.5;
+	}
+    }
+
+@media screen and (min-width: 768px) {
+   p{
+       font-size: 1.75rem;
+	line-height: 1.5;
+	}
+    }
+
+@media screen and (min-width: 992px) {
+   p{
+       font-size: 1.75rem;
+	line-height: 1.5;
+	}
+    }
+

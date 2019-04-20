@@ -1,0 +1,188 @@
+body{
+    background-image: url();
+    background-size: cover;
+    
+    
+    ul{
+    list-style: none;
+    }
+
+    ul li{
+    float:left;
+    width: 220px;
+    height: 40px;
+    background-color:black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 14px;
+    margin-top: 10px;
+    }
+
+    ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    }
+
+    ul li a:hover{
+    background-color:cornflowerblue;
+    }
+
+    ul li ul li{
+    display: none;
+    margin-top: 0;
+    }
+
+    ul li:hover ul li{
+    display: block;
+    }
+   
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.headingdiv{
+    width:100%;
+    height:70px;
+    margin-top: 0px;
+    background: #dbd1f7;
+}
+
+.headingdiv h1{
+    text-align:left;
+    height:50px;
+    line-height:75px;
+    color: rgba(1, 18, 52, 0.95);
+    font-family: sans-serif;
+}
+
+.contentdiv{
+    clear:both;
+    margin:auto;
+    margin-top:30px;
+    text-align:left;
+    width:100%;
+}
+
+.contentdiv p{
+    text-align:left;
+    width:90%;
+    margin-top: 0px;
+}
+
+.acceptdiv h2{
+    text-align:left;
+    height:50px;
+    line-height:75px;
+    color: rgba(2, 16, 46, 0.95);
+    font-family: serif;
+    
+}
+
+.content1div p{
+    clear:both;
+    margin:auto;
+    margin-top:30px;
+    text-align:left;
+    width:100%;
+    
+}
+
+.registrationdiv h2{
+    text-align:left;
+    height:50px;
+    line-height:75px;
+    color: rgba(2, 16, 46, 0.95);
+    font-family: serif;   
+}
+
+.terminationdiv h2{
+    text-align:left;
+    height:50px;
+    line-height:75px;
+    color: rgba(2, 16, 46, 0.95);
+    font-family: serif;
+}
+.usediv h2{
+    text-align:left;
+    height:50px;
+    line-height:75px;
+    color: rgba(2, 16, 46, 0.95);
+    font-family: serif;
+}
+.disclaimerdiv h2{
+    text-align:left;
+    height:50px;
+    line-height:75px;
+    color: rgba(2, 16, 46, 0.95);
+    font-family: serif;
+}
+
+.changesdiv h2{
+    text-align:left;
+    height:50px;
+    line-height:75px;
+    color: rgba(2, 16, 46, 0.95);
+    font-family: serif;
+}
+
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 1.25rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+   p{
+       font-size: 1.5rem;
+	line-height: 1.5;
+	}
+    }
+
+@media screen and (min-width: 768px) {
+   p{
+       font-size: 1.75rem;
+	line-height: 1.5;
+	}
+    }
+
+@media screen and (min-width: 992px) {
+   p{
+       font-size: 1.75rem;
+	line-height: 1.5;
+	}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

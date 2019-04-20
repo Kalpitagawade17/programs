@@ -1,0 +1,51 @@
+body{
+    
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.headingdiv{
+    width:100%;
+    height:70px;
+    background-color:rgba(111, 85, 255, 0.28);
+    margin-top: 0px;
+}
+
+.headingdiv h1{
+    text-align:center;
+    height:50px;
+    line-height:75px;
+    color: rgba(2, 16, 46, 0.95);
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 1.25rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+   p{
+       font-size: 1.5rem;
+	line-height: 1.5;
+	}
+    }
+
+@media screen and (min-width: 768px) {
+   p{
+       font-size: 1.75rem;
+	line-height: 1.5;
+	}
+    }
+
+@media screen and (min-width: 992px) {
+   p{
+       font-size: 1.75rem;
+	line-height: 1.5;
+	}
+    }
